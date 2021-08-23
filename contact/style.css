@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+/* nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(247, 241, 241);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+
+/* Header */
+.header {
+    margin-top: 10rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    text-align: center;
+    color: black;
+}
+
+
+.header p {
+    font-size: 2rem;
+}
+
+.header h1 {
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+/* section_zero */
+
+.section_zero {
+    margin-top: 3.1rem;
+    margin-bottom: 8.5rem;
+    margin-right: 8.5rem;
+    margin-left: 8.5rem;
+}
+
+
+.section_zero_column_one {
+    float: right;
+    width: 50%;
+    margin: auto;
+    padding: 1.9rem ;
+
+}
+
+.section_zero_column_one img {
+    margin: 5vh;
+}
+.section_zero_column_two {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 1.9rem ;
+
+}
+
+.section_zero_column_two h1 {
+    color: black;
+    font-size: 2.5rem;    
+}
+
+.section_zero_column_two p {
+    font-size: 1.188rem; 
+}
+
+.section_zero_column_two div {
+
+    text-align: left;
+    margin: 0rem auto 0rem auto; 
+    padding: 10vh;
+
+}
+
+.section_zero:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr.rounded {
+    border-top: 0.3rem solid rgb(123, 115, 115);
+    width: 35%;
+    align-items: left;
+    text-align: left;    
+}
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 0.063rem solid rgb(0, 0, 0);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    margin-top: 0.375rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #b3bfba;
+    color: black;
+    font-weight: bold;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    margin-top: 1.25rem;
+}
+
+
+
+
+
+
+
+
+/* section_four */
+.section_four  {
+    margin-right: 12.5rem;
+    margin-left: 8.75rem;
+    text-align: center;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0 0.625rem;
+
+}
+
+.column h1 {
+    text-align: left;
+}
+.column h3 {
+    text-align: left;
+}
+
+.row {
+    margin-bottom: 0.625rem ;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.card p {
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.25rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section_last */
+.section_last div {
+    text-align:center;
+    background-color: rgb(201, 201, 201);
+    margin: 0rem auto 0rem auto; 
+    padding: 25vh;
+
+}
+
+.section_last h1 {
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+
+.section_last p {
+    font-size: 1.563rem;
+}
+
+.button {
+    background-color: #b5b5b5; 
+    border: none;
+    color: black;
+    padding: 1.25rem 2.813rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 0.438rem;
+} 

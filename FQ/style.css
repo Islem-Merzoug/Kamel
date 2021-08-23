@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    font-family: 'Sora', sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+  
   
 /* nav bar */
 nav ul {
@@ -35,11 +36,10 @@ nav li a:hover {
 
 /* Header */
 .header {
-    padding: 250px;
+    padding: 15.625rem;
     text-align: center;
-    background: #eaeaea;
     color: black;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
   }
 
@@ -48,36 +48,36 @@ nav li a:hover {
 .column_one {
     float: right;
     width: 60%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .column_one h2 {
     color: black;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
 .column_one h2 {
     color: black;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
 .column_two {
     float: left;
     width: 40%;
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .column_two h1 {
     color: black;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: bold;
 }
 
 .column_two div {
     background-color: rgb(201, 201, 201);
-    border-radius: 7px;
+    border-radius: 0.5rem;
     margin-right: 15vh;
     margin-left: 15vh;
     padding: 5vh
@@ -93,8 +93,6 @@ nav li a:hover {
 
 
 
-
-
 /* Section Two */
 .section_two {
     margin: 20vh
@@ -103,18 +101,23 @@ nav li a:hover {
 .section_two div {
     padding: 10vh;
     background-color: rgb(201, 201, 201); 
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 
 .button {
     background-color: #8c8c8c; 
     border: none;
     color: black;
-    padding: 15px 32px;
+    padding: 0.938rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 7px;
-
+    font-size: 1em;
+    border-radius: 0.438rem;
 }
+
+
+
+/* update font : Robuto
+enlever background color
+rm au lieu de px */
